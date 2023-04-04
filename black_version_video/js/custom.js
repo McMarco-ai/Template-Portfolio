@@ -164,7 +164,7 @@ Assigned to: ThemeForest
 	});
 	
 	// Open Close main Section Js
-	var AplCss;
+	/* var AplCss;
 	var targetSection;
 	var tar;
 	var timing = 500;
@@ -204,7 +204,7 @@ Assigned to: ThemeForest
 		setTimeout(function(){ targetSection.css('display', 'none'); }, timing);
 		targetSection.animate(AplCss, timing);
 	};
-	
+	 */
 	// Contact Form Submission
 	function checkRequire(formId , targetResp){
 		targetResp.html('');
@@ -275,5 +275,6 @@ Assigned to: ThemeForest
 	});
 		
 	});
-	
+
 })();
+
