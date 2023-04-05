@@ -371,8 +371,8 @@ input:focus, textarea:focus, select:focus, button:focus {
    position: relative;
     z-index: 1;
     
-    border: 1px solid orangered;
-    box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5);
+   /*  border: 1px solid orangered;
+    box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5); */
 
 }
 .reveal2 {
@@ -931,6 +931,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin:0px;
 }
 .prt_contact_details_box p a{
+    
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -946,10 +947,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box.details_box1{
-	background-image:url(/black_version_video/images/content/yeat_img.jpg);
+	background-image:url(/black_version_video/images/content/pratik_1.png);
 }
 .prt_contact_details_box.details_box2{
-	background-image:url(/black_version_video/images/content/yeat3.jpg);
+	background-image:url(/black_version_video/images/content/pratikkkkkkkk.png);
 }
 
 /*---------- Services css Start -------*/
@@ -964,6 +965,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_services_slider_wrapper {
     display: inline-block;
     width: 100%;
+    padding-top: 100px;
    
 }
 .prt_services_slider_imgs{
@@ -1174,7 +1176,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-size: cover;
 }
 #circles-4{
-	background-image:url(/black_version_video/images/content/Adobe_Illustrator_CC_icon.svg.png);
+	background-image:url(/black_version_video/images/content/C4D_Logo.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1353,9 +1355,7 @@ button.prt_btn.prt_btn_portfolio {
 }
 /*---------- Footer css Start -------*/
 .prt_footer_wrapper {
-    background-color: #0a0a0a;
     
-    position: relative;
 }
 .prt_footer_wrapper p{
     display: inline-block;
@@ -1405,7 +1405,7 @@ button.prt_btn.prt_btn_portfolio {
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	background-color:#1c1c1c;
+	
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1414,7 +1414,7 @@ button.prt_btn.prt_btn_portfolio {
 }
 .prt_footer_wrapper ul li a:hover{
 	color:#ffffff;
-	background-color:#f6483b;
+	background-color:#e88726;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -1432,8 +1432,8 @@ button.prt_btn.prt_btn_portfolio {
     .prt_home_wrapper  .video-home{
         position: absolute;
            z-index: 1;
-           border: 1px solid orangered;
-           box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5);
+           /* border: 1px solid orangered;
+           box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5); */
                  
         }
     
@@ -1458,8 +1458,8 @@ button.prt_btn.prt_btn_portfolio {
     .prt_home_wrapper  .video-home{
         position: absolute;
            z-index: 1;
-           border: 1px solid orangered;
-           box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5);
+        /*    border: 1px solid orangered;
+           box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5); */
 
  
         }
@@ -1694,8 +1694,8 @@ button.prt_btn.prt_btn_portfolio {
     border-radius: 5px;
     position: absolute;
     z-index: 1;
-    border: 1px solid orangered;
-    box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5);
+   /*  border: 1px solid orangered;
+    box-shadow: 0 0px 32px 0 rgba(242, 139, 29, 0.5); */
           
 }
 

@@ -69,30 +69,30 @@ Assigned to: ThemeForest
 		});
 		var circle2 = Circles.create({
 			id: 'circles-2',
-			value: 100,
+			value: 70,
 			radius: 100,
-			number: 100,
-			text: '100%',
+			number: 70,
+			text: '70%',
 			width: 8,
 			colors: ["#202020", "#9a9aff"],
 			duration: 900
 		});
 		var circle3 = Circles.create({
 			id: 'circles-3',
-			value: 85,
+			value: 100,
 			radius: 100,
-			number: 85,
-			text: '85%',
+			number: 100,
+			text: '100%',
 			width: 8,
 			colors: ["#202020", "#0896d0"],
 			duration: 900
 		});
 		var circle4 = Circles.create({
 			id: 'circles-4',
-			value: 90,
+			value: 30,
 			radius: 100,
-			number: 90,
-			text: '90%',
+			number: 30,
+			text: '30%',
 			width: 8,
 			colors: ["#202020", "#ff9b00"],
 			duration: 900
