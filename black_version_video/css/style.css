@@ -964,7 +964,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_services_slider_wrapper {
     display: inline-block;
     width: 100%;
-    padding: 80px 0px;
+   
 }
 .prt_services_slider_imgs{
     display: inline-block;
@@ -1091,7 +1091,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_couter_wrapper {
     display: inline-block;
     width: 100%;
-    background-image: url(https://dummyimage.com/1920x644);
+    background-image: url(/black_version_video/images/content/galaxyorange.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1153,28 +1153,28 @@ input:focus, textarea:focus, select:focus, button:focus {
 	text-align:center;
 }
 #circles-1{
-	background-image:url(https://dummyimage.com/169x165);
+	background-image:url(/black_version_video/images/content/Adobe_Photoshop_CC_icon.svg.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-2{
-	background-image:url(https://dummyimage.com/169x165);
+	background-image:url(/black_version_video/images/content/Adobe_After_Effects_CC_icon.svg.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-3{
-	background-image:url(https://dummyimage.com/169x165);
+	background-image:url(/black_version_video/images/content/Vegas_Pro_15.0.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-4{
-	background-image:url(https://dummyimage.com/169x165);
+	background-image:url(/black_version_video/images/content/Adobe_Illustrator_CC_icon.svg.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1703,4 +1703,15 @@ button.prt_btn.prt_btn_portfolio {
   
     left:0;
    
+}
+
+.name1{
+   
+    transition: all 500ms ease-in-out;
+opacity: 0;
+}
+
+.partner1:hover  .name1{
+  
+    opacity: 1;
 }

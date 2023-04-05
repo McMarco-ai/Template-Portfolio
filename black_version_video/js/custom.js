@@ -59,42 +59,42 @@ Assigned to: ThemeForest
 	$('.prt_skills_wrapper').appear(function() {
 		var circle1 = Circles.create({
 			id: 'circles-1',
-			value: 90,
+			value: 100,
 			radius: 100,
-			number: 90,
-			text: '90%',
+			number: 100,
+			text: '100%',
 			width: 8,
 			colors: ["#202020", "#00c8ff"],
 			duration: 900
 		});
 		var circle2 = Circles.create({
 			id: 'circles-2',
-			value: 80,
+			value: 100,
 			radius: 100,
-			number: 80,
-			text: '80%',
+			number: 100,
+			text: '100%',
 			width: 8,
-			colors: ["#202020", "#ff8511"],
+			colors: ["#202020", "#9a9aff"],
 			duration: 900
 		});
 		var circle3 = Circles.create({
 			id: 'circles-3',
-			value: 75,
+			value: 85,
 			radius: 100,
-			number: 75,
-			text: '75%',
+			number: 85,
+			text: '85%',
 			width: 8,
-			colors: ["#202020", "#f26525"],
+			colors: ["#202020", "#0896d0"],
 			duration: 900
 		});
 		var circle4 = Circles.create({
 			id: 'circles-4',
-			value: 70,
+			value: 90,
 			radius: 100,
-			number: 70,
-			text: '70%',
+			number: 90,
+			text: '90%',
 			width: 8,
-			colors: ["#202020", "#1d8bbe"],
+			colors: ["#202020", "#ff9b00"],
 			duration: 900
 		});
 	});
