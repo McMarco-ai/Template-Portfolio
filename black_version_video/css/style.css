@@ -88,9 +88,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 /*---------- Heading Css Start -------*/
 .prt_heading_wrapper{
+    position: relative;
+    background-color: black;
 	text-align:center;
 }
 .prt_heading{
+    background-color: black;
 	margin-bottom:50px;
     display: inline-block;
 	position:relative;
@@ -153,7 +156,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     display: inline-block;
 	text-align:center;
 	text-transform:capitalize;
-	background-color:#f6483b;
+	background-color:#e88726;
 	border:1px solid #f6483b;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -162,9 +165,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_btn:hover, .prt_btn:focus{
-    color: #f6483b;
+    color: #e88726;
     background-color: #111111;
-	border:1px solid #f6483b;
+	border:1px solid #e88726;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -358,7 +361,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: relative;
     display: inline-block;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 20px;
     padding-top: 50px;
    box-shadow: 10px 10px 10px 20px black;
 }
@@ -794,10 +797,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     display: none;
     padding: 80px 0px 0;
 }
-.prt_contact_box{
-	
-}
+
 .prt_contact_info{
+    position: relative;
+    background-color: black;
 	display:inline-block;
 	margin-bottom:50px;
 	width:100%;
@@ -806,9 +809,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 	font-size:30px;
 	display:inline-block;
 	margin:0px 0px 35px 0px;
+   
 	text-transform:uppercase;
 }
 .prt_contact_form{
+    position: relative;
+    background-color: black;
 	display:inline-block;
 	width:100%;
 }
@@ -844,9 +850,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-top:0px;
 }
 .prt_contact_map{
+    position: relative;
+    
 	display:inline-block;
 	width:100%;
 	margin-bottom:50px;
+   
 }
 .prt_contact_map iframe{
 	display:inline-block;
@@ -855,11 +864,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 	border:0px;
 }
 .prt_contact_details {
+    position: relative;
+    background-color: black;
     display: inline-block;
     width: 100%;
     padding: 0px 0px 80px;
 }
 .prt_contact_details_box{
+    background-color: rgb(0, 0, 0);
 	padding:80px 0px;
 	text-align:center;
 	background-position:center center;
@@ -889,7 +901,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_contact_details_box:after{
 	content:"";
 	position:absolute;
-	background-color:rgba(0, 0, 0, 0.85);
+	background-color:rgba(0, 0, 0, 0.616);
 	top:0px;
 	left:0px;
 	bottom:0px;
@@ -902,7 +914,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box:hover:after{
-	background-color:rgba(0, 0, 0, 0.75);
+	background-color:rgba(0, 0, 0, 0.5);
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -926,7 +938,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box p a:hover{
-	color:#f6483b;
+	color:#e88726;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -934,14 +946,12 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box.details_box1{
-	background-image:url(https://dummyimage.com/400x267);
+	background-image:url(/black_version_video/images/content/yeat_img.jpg);
 }
 .prt_contact_details_box.details_box2{
-	background-image:url(https://dummyimage.com/400x267);
+	background-image:url(/black_version_video/images/content/yeat3.jpg);
 }
-.prt_contact_details_box.details_box3{
-	background-image:url(https://dummyimage.com/400x267);
-}
+
 /*---------- Services css Start -------*/
 .prt_services_wrapper{
     background-color: #010101;
@@ -1344,7 +1354,8 @@ button.prt_btn.prt_btn_portfolio {
 /*---------- Footer css Start -------*/
 .prt_footer_wrapper {
     background-color: #0a0a0a;
-    padding: 30px 0px;
+    
+    position: relative;
 }
 .prt_footer_wrapper p{
     display: inline-block;
