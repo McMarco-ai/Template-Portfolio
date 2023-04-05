@@ -30,7 +30,7 @@ body {
 /*--------- Body End -------*/
 /*---------- Typography Css Start -------*/
 a {
-	color: #b7b7b7;
+	color: #ffffff;
 	text-decoration: none;
 	cursor:pointer;
 }
@@ -1374,7 +1374,7 @@ button.prt_btn.prt_btn_portfolio {
     transition: all 0.3s;
 }
 .prt_footer_wrapper p a:hover{
-	color:#f6483b;
+	color:#e88726;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
