@@ -226,7 +226,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     font-size: 110px;
     color: #ffffff;
     font-weight: bold;
-    background: url(../images/content/Transferir.jpg) no-repeat;
+    background: url(./images/content/Transferir.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
@@ -246,7 +246,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
-    background: url(../images/content/Transferir.jpg) no-repeat;
+    background: url(./images/content/Transferir.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
@@ -948,7 +948,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     transition: all 0.3s;
 }
 .prt_contact_details_box.details_box1{
-	background-image:url(/pratik/images/content/pratik_1.png);
+	background-image:url(./images/content._1.png);
     width:70%;
     margin-left: 20px; 
 }
@@ -956,19 +956,19 @@ input:focus, textarea:focus, select:focus, button:focus {
     width:70% ; 
     float: right;
     margin-right: 20px; 
-	background-image:url(/pratik/images/content/pratikkkkkkkk.png);
+	background-image:url(./images/content.kkkkkkk.png);
 }
 
 @media(max-width:510px){
     .prt_contact_details_box.details_box1{
-        background-image:url(/pratik/images/content/pratik_1.png);
+        background-image:url(./images/content._1.png);
         width:100%;
         margin: 0;
     }
     .prt_contact_details_box.details_box2{
         margin: 0;
         width:100% ; 
-        background-image:url(/pratik/images/content/pratikkkkkkkk.png);
+        background-image:url(./images/content.kkkkkkk.png);
     }
 }
 
@@ -1112,7 +1112,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_couter_wrapper {
     display: inline-block;
     width: 100%;
-    background-image: url(/pratik/images/content/galaxyorange.jpg);
+    background-image: url(./images/content/galaxyorange.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1174,28 +1174,28 @@ input:focus, textarea:focus, select:focus, button:focus {
 	text-align:center;
 }
 #circles-1{
-	background-image:url(/pratik/images/content/Adobe_Photoshop_CC_icon.svg.png);
+	background-image:url(./images/content/Adobe_Photoshop_CC_icon.svg.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-2{
-	background-image:url(/pratik/images/content/Adobe_After_Effects_CC_icon.svg.png);
+	background-image:url(./images/content/Adobe_After_Effects_CC_icon.svg.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-3{
-	background-image:url(/pratik/images/content/Vegas_Pro_15.0.png);
+	background-image:url(./images/content/Vegas_Pro_15.0.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #circles-4{
-	background-image:url(/pratik/images/content/C4D_Logo.png);
+	background-image:url(./images/content/C4D_Logo.png);
 	border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
