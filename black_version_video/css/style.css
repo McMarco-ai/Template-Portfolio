@@ -143,6 +143,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 /*---------- Button css End -------*/
 .prt_btn{
+    margin-top: 400px;
     height: 50px;
     line-height: 50px;
     color: #ffffff;
@@ -328,19 +329,19 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_menu_wrapper a.prt_top1{
 	top:45px;
-	left: 30%;
+	left:30%;
 	right:0px;
 	
 }
 .prt_menu_wrapper a.prt_top2{
 	top:45px;
-	left: 42%;
+	left:45%;
 	right:40px;
 	
 }
 .prt_menu_wrapper a.prt_top3{
 	top:45px;
-	left:55%;
+	left:60%;
 	right:80px;
 	
 }
@@ -948,9 +949,27 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_contact_details_box.details_box1{
 	background-image:url(/black_version_video/images/content/pratik_1.png);
+    width:70%;
+    margin-left: 20px; 
 }
 .prt_contact_details_box.details_box2{
+    width:70% ; 
+    float: right;
+    margin-right: 20px; 
 	background-image:url(/black_version_video/images/content/pratikkkkkkkk.png);
+}
+
+@media(max-width:510px){
+    .prt_contact_details_box.details_box1{
+        background-image:url(/black_version_video/images/content/pratik_1.png);
+        width:100%;
+        margin: 0;
+    }
+    .prt_contact_details_box.details_box2{
+        margin: 0;
+        width:100% ; 
+        background-image:url(/black_version_video/images/content/pratikkkkkkkk.png);
+    }
 }
 
 /*---------- Services css Start -------*/
@@ -1442,15 +1461,57 @@ button.prt_btn.prt_btn_portfolio {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-.prt_counter_box {
+    .prt_home_wrapper .video{
+        width: 200%;
+    }
+    .prt_counter_box {
     padding-left: 50px;
+}
+
+.prt_menu_wrapper a.prt_top1{
+    top: 45px;
+    left: 32%;
+}
+.prt_menu_wrapper a.prt_top2{
+    top: 45px;
+    left: 50%;
+}
+.prt_menu_wrapper a.prt_top3{
+    top: 45px;
+    left: 70%;
 }
 .prt_home_wrapper h1 {
     font-size: 120px;
 	margin:0px;
 }
 }
-@media(max-width:991px){
+@media(min-width: 540px) and (max-width:991px){
+
+    .reveal2.active{
+        padding: 30px
+    }
+    .video-info{
+        margin-bottom: 20px;
+    }
+    
+    .prt_home_wrapper{
+        height: 900px;
+    }
+    .prt_menu_wrapper a.prt_top1{
+        top: 45px;
+        left: 32%;
+    }
+    .prt_menu_wrapper a.prt_top2{
+        top: 45px;
+        left: 50%;
+    }
+    .prt_menu_wrapper a.prt_top3{
+        top: 45px;
+        left: 70%;
+    }
+    .prt_home_wrapper .video{
+        width: 250%;
+    }
     .prt_home_wrapper video {
       position: absolute;
          z-index: 1;
@@ -1471,7 +1532,7 @@ button.prt_btn.prt_btn_portfolio {
         height: 1410px;
     }
     .row.rowResponsive1 {
-        margin: 440px 0px 0px;
+        margin: 100px 0px 0px;
     }
     
 }
@@ -1502,7 +1563,7 @@ button.prt_btn.prt_btn_portfolio {
 }
 
 .prt_services_slider_imgs {
-    margin-left: 150px;
+    margin-left: 0px;
 }
 .prt_services_slider_box {
     position: absolute;
@@ -1517,6 +1578,7 @@ button.prt_btn.prt_btn_portfolio {
 }
 }
 @media (max-width: 767px) {
+
     .prt_counter_box h3 {
         margin: 0px;
     }
@@ -1570,7 +1632,7 @@ button.prt_btn.prt_btn_portfolio {
     height: 1420px;
 }
 .prt_services_slider_imgs {
-    margin-left: 150px;
+    margin-left: 10px;
 }
 .prt_services_slider_box {
     position: absolute;
@@ -1591,6 +1653,46 @@ button.prt_btn.prt_btn_portfolio {
 }
 }
 @media(max-width:580px){
+    .prt_btn{
+        margin-top: 250px;
+}
+    .reveal2.active{
+        padding: 30px
+    }
+    .video-info{
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        left: 0px !important;
+    }
+    .prt_home_wrapper{
+        height: 800px !important;
+    }
+    .video{
+        width: 400% !important;
+    }
+    .video-home{
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        left:0 !important;
+    }
+    .prt_menu_wrapper a.prt_top1{
+        font-size: 10px;
+        top: 45px;
+        left: 10%;
+    }
+    .prt_menu_wrapper a.prt_top2{
+        font-size: 10px;
+        top: 45px;
+        left: 33%;
+    }
+    .prt_menu_wrapper a.prt_top3{
+        font-size: 10px;
+        top: 45px;
+        left: 60%;
+    }
     .prt_services_slider_wrapper {
         height: 1520px;
     }
@@ -1661,7 +1763,7 @@ button.prt_btn.prt_btn_portfolio {
         padding: 0px 0px 50px;
     }
     .row.rowResponsive1 {
-        margin: 380px 0px 0px;
+        margin: 100px 0px 0px;
     }
     .prt_services_slider_wrapper {
         height: 1430px;
